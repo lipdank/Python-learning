@@ -14,4 +14,4 @@ for guessesTaken in range(1, 7):
 if guess == secret_number:
     print('Мега хорош! Кол-во попыток: ' + str(guessesTaken) + '.')
 else:
-    print('Вы лох. Я загадал число ' + str(secret_number))
+    print('Вы проиграли. Я загадал число ' + str(secret_number))
